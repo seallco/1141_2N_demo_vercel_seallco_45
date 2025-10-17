@@ -65,7 +65,10 @@ const Navbar_45 = () => {
               <Link to="#">Demo +</Link>
               <div className="sub-menu-wrapper slideInUp">
                 <ul className="sub-menu">
-                  <li className="menu-item"><Link to='/static_45'>W02-BlogStatic-45</Link></li>
+                  <li className="menu-item">
+                    <Link to='/booklist_45'>W02-BookList-45</Link>
+                </li>
+                  <li className="menu-item"><Link to='/static_45'>W03-BlogStatic-45</Link></li>
                   <li className="menu-item"><Link to='/localjson_45'>W03-BlogLocalJson-45</Link></li>
                   <li className="menu-item"><Link to='/node_45'>W04-BlogNode-45</Link></li>
                   <li className="menu-item"><Link to="#">W05-BlogSupa-45</Link></li>
