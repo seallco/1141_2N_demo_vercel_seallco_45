@@ -1,9 +1,10 @@
 import { FaGlobe } from "react-icons/fa";
 import { FaMugSaucer } from "react-icons/fa6";
+import Wrapper from '../assets/wrappers/blog2_45'
 
 const BlogStaticPage_45 = () => {
     return(
-    <>
+    <Wrapper>
       <section className="blogs">
       <div className="section-title">
         <h2>statics blogs -- 周淵凱, 213410045</h2>
@@ -67,7 +68,7 @@ const BlogStaticPage_45 = () => {
         </article>
       </div>
     </section>
-    </> 
+    </Wrapper> 
     )
 }
 

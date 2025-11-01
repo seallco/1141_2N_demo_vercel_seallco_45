@@ -2,6 +2,7 @@ import{ useState, useEffect, use } from 'react'
 
 // import blogData_45 from '../assets/data/blogData.json'
 import Blog_45 from '../components/Blog_45';
+import Wrapper from '../assets/wrappers/blog2_45'
 
 const api_url = 'http://localhost:5001/api/blog_45';
 
@@ -26,7 +27,7 @@ useEffect(()=>{
 }, []);
 
     return(
-    <>
+    <Wrapper>
       <section className="blogs">
       <div className="section-title">
         <h2>blogs from Node -- { name }, {id}{' '}</h2>
@@ -47,7 +48,7 @@ useEffect(()=>{
       })}
       </div>
     </section>
-    </> 
+    </Wrapper> 
     )
 }
 

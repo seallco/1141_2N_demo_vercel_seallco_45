@@ -63,19 +63,25 @@ const Navbar_45 = () => {
 
             <li className="menu-item dropdown">
               <Link to="#">Demo +</Link>
-              <div className="sub-menu-wrapper slideInUp">
+              <div className="sub-menu-wrapper">
                 <ul className="sub-menu">
-                  <li className="menu-item">
-                    <Link to='/booklist_45'>W02-BookList-45</Link>
-                </li>
-                  <li className="menu-item"><Link to='/static_45'>W03-BlogStatic-45</Link></li>
+                  <li className="menu-item"><Link to='/static_45'>W02-BlogStatic-45</Link></li>
                   <li className="menu-item"><Link to='/localjson_45'>W03-BlogLocalJson-45</Link></li>
                   <li className="menu-item"><Link to='/node_45'>W04-BlogNode-45</Link></li>
-                  <li className="menu-item"><Link to="#">W05-BlogSupa-45</Link></li>
+                  <li className="menu-item"><Link to="/supa_45">W06-BlogSupa-45</Link></li>
+                  <li className="menu-item"><Link to="/localjson2_45">W07-BlogLocalJson2-45</Link></li>
                 </ul>
               </div>
             </li>
-            <li className="menu-item"><Link to="#">Blog</Link></li>
+            <li className="menu-item dropdown">
+              <Link to="#">Tutorials +</Link>
+              <div className="sub-menu-wrapper">
+                <ul className="sub-menu">
+                  <li className="menu-item"><Link to='/tutorials/t11_45'>T11_ErrorExamplePage_45</Link></li>
+                  <li className="menu-item"><Link to='/tutorials/t12_45'>T12_UseStateBasic_45</Link></li>
+                </ul>
+              </div>
+            </li>
             <li className="menu-item"><Link to="#">Contact</Link></li>
           </ul>
           <Link
@@ -143,11 +149,20 @@ const Navbar_45 = () => {
                   <li className="menu-item"><Link to='/static_45'>W02-BlogStatic-45</Link></li>
                   <li className="menu-item"><Link to='/localjson_45'>W03-BlogLocalJson-45</Link></li>
                   <li className="menu-item"><Link to='/node_45'>W04-BlogNode-45</Link></li>
-                  <li className="menu-item"><Link to="#">Service 4</Link></li>
+                  <li className="menu-item"><Link to="/supa_45">W06-BlogSupa-45</Link></li>
+                  <li className="menu-item"><Link to="/localjson2_45">W07-BlogLocalJson2-45</Link></li>
                 </ul>
               </div>
             </li>
-            <li className="menu-item"><Link to="#">Blog</Link></li>
+            <li className="menu-item dropdown">
+              <Link to="#">Tutorials +</Link>
+              <div className="sub-menu-wrapper">
+                <ul className="sub-menu">
+                  <li className="menu-item"><Link to='/tutorials/t11_45'>T11_ErrorExamplePage_45</Link></li>
+                  <li className="menu-item"><Link to='/tutorials/t12_45'>T12_45</Link></li>
+                </ul>
+              </div>
+            </li>
             <li className="menu-item"><Link to="#">Contact</Link></li>
           </ul>
         </div>
